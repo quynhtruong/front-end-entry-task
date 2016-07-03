@@ -1,0 +1,3225 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-DISC_blue {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -228px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-DISC_blue_question_mark {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -237px;
+  width: 16px;
+  height: 16px;
+}
+.icon-DISC_green {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -218px;
+  width: 16px;
+  height: 16px;
+}
+.icon-DISC_green_question_mark {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -171px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-DISC_red {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -152px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-DISC_red_question_mark {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -95px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-DISC_yellow {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -76px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-DISC_yellow_question_mark {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -456px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-american_express {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -138px;
+  width: 51px;
+  height: 31px;
+}
+.icon-american_express_off {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -138px;
+  width: 51px;
+  height: 31px;
+}
+.icon-arrow_Blue {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -78px -466px;
+  width: 22px;
+  height: 22px;
+}
+.icon-arrow_Green {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-arrow_Red {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -128px -466px;
+  width: 22px;
+  height: 22px;
+}
+.icon-arrow_Yellow {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -103px -466px;
+  width: 22px;
+  height: 22px;
+}
+.icon-bt_Delete {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-bt_Edit {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-bt_Edit:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-bt_XPhoto {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -466px;
+  width: 23px;
+  height: 23px;
+}
+.icon-discover_card {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px 0px;
+  width: 51px;
+  height: 31px;
+}
+.icon-discover_card_off {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -122px -39px;
+  width: 51px;
+  height: 31px;
+}
+.icon-icon_Accept {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -342px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Accept_White {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -323px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Account {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Account_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Account_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Account:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Accounts {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Accounts_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -216px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Action {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -324px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Action1 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -351px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Action1:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -378px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Action:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -351px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Add_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Add_Contact {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Add_Green {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -138px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Add_Green_Big {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -87px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_Add_Green_Big:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -51px -87px;
+  width: 48px;
+  height: 48px;
+}
+.icon-icon_Add_Green:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -111px -211px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Add_Green_Small {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -219px -211px;
+  width: 20px;
+  height: 20px;
+}
+.icon-icon_Add_Green_Small:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -46px;
+  width: 20px;
+  height: 20px;
+}
+.icon-icon_Alphabetical {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -192px -211px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Alphabetical_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -105px -242px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Alphabetical_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -132px -242px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Alphabetical:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -159px -242px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Appointment {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -186px -242px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Appointment_16 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -266px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Appointment_Accepted {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -23px;
+  width: 20px;
+  height: 20px;
+}
+.icon-icon_Appointment_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Appointment_Declined {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-icon_Appointment_Small {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Back_Filter {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Back_Filter:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Call {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -85px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Call_List {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Call_List_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaign {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaign_1 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -123px -172px;
+  width: 39px;
+  height: 28px;
+}
+.icon-icon_Campaign_2 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -211px;
+  width: 39px;
+  height: 28px;
+}
+.icon-icon_Campaign_3 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -42px -211px;
+  width: 39px;
+  height: 28px;
+}
+.icon-icon_Campaign_4 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -165px -172px;
+  width: 39px;
+  height: 28px;
+}
+.icon-icon_Campaign_5 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -172px;
+  width: 39px;
+  height: 28px;
+}
+.icon-icon_Campaign_6 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -39px -172px;
+  width: 39px;
+  height: 28px;
+}
+.icon-icon_Campaign_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -135px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaigns_Facebook {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaigns_Facebook_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaigns_Linkedin {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -216px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaigns_Linkedin_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaigns_Mailchimp {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -270px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaigns_Mailchimp_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Campaigns_Salesbox {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Change_Account {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Change_Account:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Change_Password {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Change_Password_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Check {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Checklist {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Checklist_active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Checklist_active_hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Checklist_hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -305px -270px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Company_Info {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Company_Info_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Contact {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Contact_Import {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Contact_Import_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Contacts {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -135px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Contacts_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Convert_Campaign {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -146px;
+  width: 32px;
+  height: 19px;
+}
+.icon-icon_Convert_Opportunities {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -156px -87px;
+  width: 25px;
+  height: 25px;
+}
+.icon-icon_Count {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Decline {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -465px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Decline_Grey {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -446px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Default_Values {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Default_Values_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Detail {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Detail_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Detail_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Detail:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Dial {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -332px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Display_Options {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Display_Options_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Distribute {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Distribute_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -270px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Drang_Drop {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -297px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Edit {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Edit:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Email {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -313px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Export {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Fastest {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -122px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-icon_Favorite {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -135px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Favorite_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Favorite_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Favorite:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -216px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_FeedBack {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_FeedBack_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -270px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -297px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -324px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter_Color {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter_Color:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter_Color_Regular {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter_Color_Regular:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter_White {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Filter_White_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Genius {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Genius:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Graph {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Graph_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Graph_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -270px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Graph:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -297px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_History {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -359px -324px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_History_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_History_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_History:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Import {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Import_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Information {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -135px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Information:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Insights {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Insights_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -216px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Language_Setting {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Language_Setting_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -270px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Leads {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -297px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Leads_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -324px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Linked_Opportunity {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -210px;
+  width: 32px;
+  height: 28px;
+}
+.icon-icon_Lost {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Lost_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Lost_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Lost:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Mail {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -294px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Medium {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -48px;
+  width: 64px;
+  height: 36px;
+}
+.icon-icon_Next_Filter {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Next_Filter:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_No_Contact {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_No_Contact_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_No_Contact_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -270px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_No_Contact:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -297px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Personal_Info {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -324px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Personal_Info_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -386px -351px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Phone {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -275px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Phonenumber {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -256px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Priority {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -84px -211px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Priority_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Priority_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Priority:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -135px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Product {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Product_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Question {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -517px -60px;
+  width: 15px;
+  height: 15px;
+}
+.icon-icon_Recent {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Recent_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -270px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Recent_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -297px -385px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Recent_Appointment {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -199px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Call {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -180px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Contact_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -161px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Dial {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -142px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Document {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -123px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Edit {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -104px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Email {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -437px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_FaceTime {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -418px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Recent_Lead {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -399px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Lost {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -380px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Note {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -361px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Opportunity {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -304px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Photo {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -285px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Progress {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -247px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Task {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -228px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_Won {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -427px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_iMessage {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -408px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recent_view {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -224px -146px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Recruiting {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Recruiting_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Report_Delete {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Report_Display {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Report_Export {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -135px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Report_Export_XLS {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Report_Person {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Report_Publish {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -216px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Reset {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Reset:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -270px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Right {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -297px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Right_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -324px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Search {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -351px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Setting {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -378px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Setting_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -405px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_SigOut {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_SigOut_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Slow {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -55px 0px;
+  width: 64px;
+  height: 36px;
+}
+.icon-icon_Social_Media_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Social_Media_Setting {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Social_Media_Setting_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Sort {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Sort:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Statistic {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Statistic_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Statistic_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -270px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Statistic:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -297px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Target {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -324px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Target2 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -351px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Target2_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -378px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Target_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -440px -405px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Target_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Target:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -81px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task_Done {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task_Done_Gray {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -135px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task_Done_Green {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -162px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task_Done_Orange {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task_Small {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -216px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Task_Wait {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Terms_Of_Use {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -270px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Terms_Of_Use_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -297px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Tick {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -324px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Time_Logo {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -107px;
+  width: 36px;
+  height: 36px;
+}
+.icon-icon_Time_Notifi {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -389px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_Trash {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -405px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Trash_Gray {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -432px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Trash:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Unit {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -68px;
+  width: 36px;
+  height: 36px;
+}
+.icon-icon_User {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -172px;
+  width: 36px;
+  height: 36px;
+}
+.icon-icon_View_Appointment {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Appointment_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Closed {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Colleagues {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Colleagues_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Contacts {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Contacts_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Document {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -270px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Document_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -297px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Leads {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -324px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Leads_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -351px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Note {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -378px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Note_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -405px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Opportunities {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -467px -432px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Opportunities_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -466px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_OrderRow {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -378px -439px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_OrderRow_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -412px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Photo {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -378px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Photo_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -351px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Progress {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -324px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Progress_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -297px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Task {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -270px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_View_Task_Add {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -243px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Won {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -216px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Won_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -189px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Won_Active:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_Won:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -108px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_add_billing {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -81px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_add_billing_hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -54px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_back {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_back:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -413px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_document_doc {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -35px -242px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_key {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -242px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_number {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -175px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_pages {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -140px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_pdf {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_ppt {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -70px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_rtf {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -35px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_txt {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -70px -242px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_document_xls {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -243px -105px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon_mail_pending {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -332px -162px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_medal_bronzen {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -517px -40px;
+  width: 15px;
+  height: 17px;
+}
+.icon-icon_medal_gold {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -517px -20px;
+  width: 15px;
+  height: 17px;
+}
+.icon-icon_medal_siliver {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -517px 0px;
+  width: 15px;
+  height: 17px;
+}
+.icon-icon_more_contact {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -153px -466px;
+  width: 25px;
+  height: 17px;
+}
+.icon-icon_more_contact_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -181px -466px;
+  width: 25px;
+  height: 17px;
+}
+.icon-icon_next {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -297px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_next:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -270px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_opportunities {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -135px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_opportunities_16 {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -209px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icon_opportunities_Active {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -278px -27px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_pdf {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px 0px;
+  width: 52px;
+  height: 45px;
+}
+.icon-icon_pending_user {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -213px -242px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_remove {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -165px -211px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_remove_hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -138px -211px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_report_check {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -351px -358px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_report_checked {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -108px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_time_to_act {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_time_to_ask {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -27px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_triangle_bottom {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -277px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_triangle_bottom:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -240px -242px;
+  width: 24px;
+  height: 24px;
+}
+.icon-icon_update_version {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -53px -466px;
+  width: 22px;
+  height: 22px;
+}
+.icon-icon_warning {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -54px -331px;
+  width: 24px;
+  height: 24px;
+}
+.icon-mark_collaboration {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -475px -466px;
+  width: 16px;
+  height: 16px;
+}
+.icon-mark_external {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-mark_internal {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -19px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-mark_issuses {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -38px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-mark_sale {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -57px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-master_card {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: 0px -138px;
+  width: 51px;
+  height: 31px;
+}
+.icon-master_card_off {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -67px -48px;
+  width: 51px;
+  height: 31px;
+}
+.icon-read {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -114px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-read:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -133px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-star_gray {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -207px -172px;
+  width: 24px;
+  height: 24px;
+}
+.icon-star_yellow {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -216px -304px;
+  width: 24px;
+  height: 24px;
+}
+.icon-tbox_check {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -190px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-tbox_checked {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -209px -493px;
+  width: 16px;
+  height: 16px;
+}
+.icon-triangle {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -69px;
+  width: 20px;
+  height: 13px;
+}
+.icon-unread {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -370px;
+  width: 16px;
+  height: 16px;
+}
+.icon-unread:hover {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -494px -351px;
+  width: 16px;
+  height: 16px;
+}
+.icon-visa_card {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -189px -34px;
+  width: 51px;
+  height: 31px;
+}
+.icon-visa_card_off {
+  background-image: url(../img/icon-spritesheet-normal.png);
+  background-position: -102px -87px;
+  width: 51px;
+  height: 31px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-DISC_blue {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-DISC_blue_question_mark {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-DISC_green {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-DISC_green_question_mark {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-DISC_red {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-DISC_red_question_mark {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-DISC_yellow {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-DISC_yellow_question_mark {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-american_express {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-american_express_off {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-arrow_Blue {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-arrow_Green {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-arrow_Red {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-arrow_Yellow {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-bt_Delete {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-bt_Edit {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-bt_Edit:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-bt_XPhoto {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-discover_card {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-discover_card_off {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Accept {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Accept_White {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Account {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Account_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Account_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Account:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Accounts {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Accounts_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Action {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Action1 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Action1:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Action:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Contact {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Green {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Green_Big {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Green_Big:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Green:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Green_Small {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Add_Green_Small:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Alphabetical {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Alphabetical_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Alphabetical_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Alphabetical:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Appointment {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Appointment_16 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Appointment_Accepted {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Appointment_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Appointment_Declined {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Appointment_Small {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Back_Filter {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Back_Filter:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Call {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Call_List {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Call_List_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign_1 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign_2 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign_3 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign_4 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign_5 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign_6 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaign_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaigns_Facebook {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaigns_Facebook_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaigns_Linkedin {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaigns_Linkedin_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaigns_Mailchimp {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaigns_Mailchimp_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Campaigns_Salesbox {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Change_Account {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Change_Account:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Change_Password {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Change_Password_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Check {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Checklist {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Checklist_active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Checklist_active_hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Checklist_hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Company_Info {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Company_Info_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Contact {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Contact_Import {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Contact_Import_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Contacts {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Contacts_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Convert_Campaign {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Convert_Opportunities {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Count {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Decline {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Decline_Grey {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Default_Values {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Default_Values_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Detail {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Detail_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Detail_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Detail:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Dial {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Display_Options {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Display_Options_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Distribute {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Distribute_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Drang_Drop {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Edit {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Edit:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Email {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Export {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Fastest {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Favorite {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Favorite_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Favorite_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Favorite:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_FeedBack {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_FeedBack_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter_Color {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter_Color:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter_Color_Regular {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter_Color_Regular:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter_White {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Filter_White_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Genius {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Genius:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Graph {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Graph_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Graph_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Graph:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_History {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_History_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_History_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_History:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Import {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Import_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Information {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Information:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Insights {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Insights_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Language_Setting {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Language_Setting_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Leads {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Leads_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Linked_Opportunity {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Lost {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Lost_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Lost_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Lost:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Mail {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Medium {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Next_Filter {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Next_Filter:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_No_Contact {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_No_Contact_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_No_Contact_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_No_Contact:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Personal_Info {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Personal_Info_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Phone {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Phonenumber {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Priority {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Priority_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Priority_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Priority:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Product {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Product_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Question {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Appointment {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Call {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Contact_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Dial {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Document {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Edit {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Email {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_FaceTime {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Lead {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Lost {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Note {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Opportunity {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Photo {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Progress {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Task {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_Won {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_iMessage {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recent_view {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recruiting {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Recruiting_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Report_Delete {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Report_Display {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Report_Export {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Report_Export_XLS {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Report_Person {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Report_Publish {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Reset {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Reset:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Right {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Right_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Search {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Setting {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Setting_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_SigOut {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_SigOut_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Slow {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Social_Media_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Social_Media_Setting {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Social_Media_Setting_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Sort {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Sort:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Statistic {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Statistic_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Statistic_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Statistic:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Target {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Target2 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Target2_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Target_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Target_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Target:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task_Done {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task_Done_Gray {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task_Done_Green {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task_Done_Orange {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task_Small {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Task_Wait {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Terms_Of_Use {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Terms_Of_Use_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Tick {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Time_Logo {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Time_Notifi {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Trash {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Trash_Gray {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Trash:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Unit {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_User {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Appointment {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Appointment_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Closed {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Colleagues {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Colleagues_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Contacts {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Contacts_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Document {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Document_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Leads {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Leads_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Note {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Note_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Opportunities {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Opportunities_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_OrderRow {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_OrderRow_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Photo {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Photo_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Progress {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Progress_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Task {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_View_Task_Add {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Won {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Won_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Won_Active:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_Won:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_add_billing {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_add_billing_hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_back {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_back:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_doc {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_key {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_number {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_pages {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_pdf {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_ppt {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_rtf {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_txt {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_document_xls {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_mail_pending {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_medal_bronzen {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_medal_gold {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_medal_siliver {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_more_contact {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_more_contact_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_next {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_next:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_opportunities {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_opportunities_16 {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_opportunities_Active {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_pdf {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_pending_user {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_remove {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_remove_hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_report_check {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_report_checked {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_time_to_act {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_time_to_ask {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_triangle_bottom {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_triangle_bottom:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_update_version {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-icon_warning {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-mark_collaboration {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-mark_external {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-mark_internal {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-mark_issuses {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-mark_sale {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-master_card {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-master_card_off {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-read {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-read:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-star_gray {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-star_yellow {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-tbox_check {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-tbox_checked {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-triangle {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-unread {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-unread:hover {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-visa_card {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+  .icon-visa_card_off {
+    background-image: url(../img/icon-spritesheet-retina.png);
+    background-size: 532px 509px;
+  }
+}

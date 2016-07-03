@@ -1,0 +1,142 @@
+.alphabet-image-container {
+    padding-top: 3px;
+    height: 46px;
+    width: 46px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+}
+
+.image-container {
+    height: 56px;
+    width: 56px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+}
+
+.image-container-avatar-detail {
+    height: 116px;
+    width: 116px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+}
+
+
+.flippable-image {
+    width: 100%;
+    height: 100%;
+    margin: 2px 0 0 2px;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    -ms-transition: -ms-transform 1s;
+    //transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: hidden;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.flippable-image.flipped {
+    border-radius: 50%;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    -ms-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.flippable-image img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flippable-image text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size : 350%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.avatar-text-inner text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size : 150%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flippable-image .front {
+    background: white;
+}
+
+.flippable-image .back {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    -ms-transform: rotateY( 180deg );
+    //transform: rotateY( 180deg );
+}
+
+.non-pointer {
+    position: absolute;
+    pointer-events: none;
+}
+
+.background-yellow {
+    background-color: #f5b342;
+}
+.background-green {
+    background-color: #a9d231;
+}
+.background-red {
+    background-color: #ed684e;
+}
+.background-blue {
+    background-color: #1e90f0;
+}
+.background-gray {
+    background-color: #efefef;
+}

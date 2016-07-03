@@ -1,0 +1,80 @@
+.notification-wrapper {
+    background: #fff;
+    border: 1px solid rgba(100, 100, 100, .4);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    //overflow: visible;
+    position: absolute;
+    left: 0;
+    top: 62px;
+    width: 350px;
+    z-index: 100;
+}
+
+.notification-header {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.notification-content {
+    max-height: 500px;
+}
+
+.notification-row {
+    padding: 5px 0;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.notification-triangle-top {
+    position: relative;
+    z-index: 1000;
+    left: 10px;
+}
+
+.icon-read {
+    cursor: pointer;
+}
+
+.icon-unread {
+    cursor: pointer;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.black-tooltip + .tooltip > .tooltip-inner {
+    background-color: black;
+}
+
+#notification {
+    display: none;
+}
+
+.notification-logo-container {
+    cursor: pointer;
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.notification-bubble {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    padding: 2px 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.notification-two-digit {
+    padding: 2px 4px;
+}
+
+.notification-background-unread {
+    background: #ececec
+}
