@@ -1,5 +1,7 @@
 <!doctype html>
 <html>
+<link rel="import" href="bower_components/iron-selector/iron-selector.html">
+<link rel="import" href="bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 <head>
     <meta charset="utf-8">
     <title></title>
@@ -12,7 +14,7 @@
 </head>
 
 
-<body ng-app="eventSharingApp">
+<body ng-app="eventSharingApp" style="overflow: auto;">
 <div style="height: 100%;">
     <div ui-view="main" style="height: 100%;"></div>
     <!-- endbower -->
@@ -33,10 +35,18 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script src="bower_components/less/dist/less.min.js"></script>
-
+    <script src="bower_components/js-sha256/build/sha256.min.js"></script>
+    <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js"></script>
+    <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js"></script>
+    <script src="bower_components/bootstrap-ui-datetime-picker/dist/datetime-picker.min.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/user.js"></script>
     <script src="scripts/controllers/loginController.js"></script>
+    <script src="scripts/controllers/eventListController.js"></script>
+    <script src="scripts/services/loginService.js"></script>
+    <script src="scripts/services/eventService.js"></script>
+    <script src="scripts/directives/eventDirective.js"></script>
+    <script src="scripts/controllers/eventItemController.js"></script>
 
     <!-- endbuild -->
 

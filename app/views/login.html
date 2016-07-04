@@ -1,0 +1,82 @@
+<div style="height: 100%;">
+    <div id="loading-login"></div>
+    <div class="row row-no-margin login-form" id="loginScreen" style="width: auto;height: 100%;position: relative;">
+        <div class="row-no-margin text-center text-18 margin-top-30px">
+            <span class="title-login">FIND THE MOST LOVED ACTIVITIES</span>
+        </div>
+        <div class="row row-no-margin text-center text-25 margin-top-30px">
+            <span class="title-login">BLACK CAT</span>
+        </div>
+        <div class="row row-no-margin text-center text-25 margin-top-30px">
+            <img class="cat-logo" ng-src="../images/logo-cat.svg" style="width: 100px;height: 100px;">
+        </div>
+        <div class="text-center center-login-form">
+            <form role="form" name="loginForm" style="padding-top: 30px;border: none">
+                <table style="line-height: 1.7; border: none">
+                    <tr>
+                        <td width="50%">
+                        </td>
+                        <td style="text-align:left">
+                            <span class="label-black-17">Email</span>
+                        </td>
+                        <td width="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                        </td>
+                        <td>
+                            <input type="email" name="email" ng-model="email" placeholder="{{'Email'}}"
+                                   class="sb-modal-form-control login-form login-input text-18"
+                                   id="email"
+                                   required/>
+                        </td>
+                        <td width="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%">
+                        </td>
+                        <td style="text-align:left">
+                            <span class="label-black-17">Password</span>
+                        </td>
+                        <td width="50%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="password" name="password" ng-model="password"
+                                   placeholder="{{'Password'}}"
+                                   class="sb-modal-form-control login-form login-input text-18" id="password" required/>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="login-form">
+                            <button class="btn-default btn-block btn-green" style="margin-top: 30px"
+                                    ng-click="login()"
+                                    id="login">SIGN IN
+                            </button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+
+    $("#email").on("keypress", doSubmit);
+    $("#password").on("keypress", doSubmit);
+
+    function doSubmit(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+            $("#login").click();
+        }
+    }
+</script>

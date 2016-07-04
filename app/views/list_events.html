@@ -1,0 +1,119 @@
+<div class="col-md-12" style="height: 100%;">
+
+    <div class="col-xs-3 search vertical layout" style="position: fixed;">
+        <div class="row date">
+            <div class="row title-wrapper">
+                <span class="title">DATE</span>
+            </div>
+        </div>
+        <div class="row" style="height: 40px;">
+            <div class="col-xs-4 text-center">
+                <button class="btn btn-primary btn-lg" ng-click="selectDate('anyTime')"
+                        style="height: 100%;border-radius: 25px;">ANYTIME
+                </button>
+            </div>
+            <div class="col-xs-3 text-center">
+                <button class="btn btn-primary btn-lg" ng-click="selectDate('today')"
+                        style="height: 100%; border-radius: 25px;">TODAY
+                </button>
+            </div>
+            <div class="col-xs-5 text-center">
+                <button class="btn btn-primary btn-lg" ng-click="selectDate('tomorrow')"
+                        style="height: 100%; border-radius: 25px;">TOMORROW
+                </button>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-xs-5 text-center">
+                <button class="btn btn-primary btn-lg" ng-click="selectDate('thisWeek')"
+                        style="height: 100%;border-radius: 25px;">THIS WEEK
+                </button>
+            </div>
+            <div class="col-xs-7 text-left" style="padding-left: 10px;">
+                <button class="btn btn-primary btn-lg" ng-click="selectDate('thisMonth')"
+                        style="height: 100%;border-radius: 25px;">THIS MONTH
+                </button>
+            </div>
+        </div>
+        <div class="row row-no-margin" style="margin-top: 20px;">
+            <div class="row row-no-margin">
+                <button class="btn btn-primary btn-lg" ng-click="chooseDateTime()"
+                        style="height: 100%;border-radius: 25px;margin-left: 20px;">LATER
+                </button>
+            </div>
+            <div class="row row-no-margin" ng-show="chooseDate" style="margin-top: 10px;">
+                <div class="row row-no-margin">
+                    <div class="col-xs-4 text-left"><label class="control-label"
+                                                           style="width: auto;"><span>From</span>:</label>
+                    </div>
+                    <div class="col-xs-8 text-center">
+                        <input id="start_date" class="sb-modal-form-control no-border date text-center"
+                               datetime-picker="dd MMM yyyy HH:mm" ng-model="startDate" is-open="openStartDate"
+                               ng-click="openCalendar($event,'startDate')"
+                               style="width:100%; padding-left: 0px;"
+                               type="text"
+                               readonly/>
+
+                    </div>
+                </div>
+                <div class="row row-no-margin" style="margin-top: 15px;">
+                    <div class="col-xs-4 text-left"><label class="control-label"
+                                                           style="width: auto;"><span>To</span>:</label>
+                    </div>
+                    <div class="col-xs-8 text-center">
+                        <input id="end_date" class="sb-modal-form-control no-border date text-center"
+                               datetime-picker="dd MMM yyyy HH:mm" ng-model="endDate" is-open="openEndDate"
+                               ng-click="openCalendar($event,'endDate')"
+                               style="width:100%; padding-left: 0px;"
+                               type="text"
+                               readonly/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row date">
+            <div class="row title-wrapper">
+                <span class="title">CHANNEL</span>
+            </div>
+        </div>
+        <div ng-repeat="channel_group in _channel_group_list track by $index">
+            <div class="row row-no-margin">
+                <div class="col-xs-4" ng-show="channel_group.first">
+                    <button class="btn btn-primary btn-lg btn-circle"
+                            ng-click="filterByChannel(channel_group.first.name)">
+                        <span style="font-size: 17px; color: white;">{{channel_group.first.name}}</span>
+                    </button>
+                </div>
+                <div class="col-xs-4" ng-show="channel_group.second">
+                    <button class="btn btn-primary btn-lg btn-circle"
+                            ng-click="filterByChannel(channel_group.second.name)">
+                        <span style="font-size: 17px; color: white;">{{channel_group.second.name}}</span>
+                    </button>
+                </div>
+                <div class="col-xs-4" ng-show="channel_group.third">
+                    <button class="btn btn-primary btn-lg btn-circle"
+                            ng-click="filterByChannel(channel_group.third.name)">
+                        <span style="font-size: 17px; color: white;">{{channel_group.third.name}}</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-no-margin" style="padding-bottom: 10px;">
+            <div class="col-xs-12" style="height: 50px;">
+                <button class="btn btn-primary btn-lg" style="height: 100%;width: 100%;">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    <span class="text-18">SEARCH</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--list-->
+    <div class="col-xs-9" style="float: right;">
+        <div class="row">
+            <event-item ng-repeat="event in _eventList" event="event">
+            </event-item>
+        </div>
+    </div>
+
+</div>

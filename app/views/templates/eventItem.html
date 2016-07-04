@@ -1,0 +1,64 @@
+<div class="col-xs-12">
+    <div class="well well-sm">
+        <div class="row row-no-margin">
+            <div class="col-xs-12">
+                <div class="col-xs-6 no-padding">
+                    <div class="col-xs-1 no-padding">
+                        <img ng-src="http://www.pinkskyevents.com/services-slider/event1.jpg"
+                             alt=""
+                             class="img-circle img-responsive" style="width: 45px;height: 45px;"/>
+                    </div>
+                    <div class="col-xs-11 text-17" style="margin-top: 5px;">
+                        <h5>{{ event.owner_name}}</h5>
+                    </div>
+                </div>
+                <div class="col-xs-2"></div>
+                <div class="col-xs-4 text-right no-padding no-margin text-18">
+                    <button class="btn btn-primary"
+                            style="height: 100%;border-radius: 25px;">{{event.channel_name}}
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row-no-margin ">
+            <div class="col-xs-12 text-left">
+                <h3 class="title-bold">{{event.title}}</h3>
+            </div>
+        </div>
+        <div class="row row-no-margin" style="margin-top: 10px;">
+            <div class="col-xs-12 text-left" style="font-size: 15px;color:#8560A9;">
+                <span class="glyphicon glyphicon-time"></span>
+                <span>{{event.start_date}} - {{event.end_date}}</span>
+            </div>
+        </div>
+        <div class="row row-no-margin text-18" style="margin-top: 10px;">
+            <div class="col-xs-12">
+                <p>{{event.description}}</p>
+            </div>
+        </div>
+        <div class="row row-no-margin text-17">
+            <div class="col-xs-12">
+                <div class="col-xs-4 no-padding no-margin">
+                    <!--tick icon-->
+                    <div class="col-xs-1 text-left no-padding no-margin">
+                        <i class="glyphicon glyphicon-ok" style="color: #AECB4F;"></i>
+                    </div>
+                    <!--going-->
+                    <div class="col-xs-11  no-padding">
+                        <span>I am going</span>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="col-xs-1 no-padding">
+                        <i class="glyphicon glyphicon-heart" style="color: #FF5C5C;"></i>
+                    </div>
+                    <div class="col-xs-11 no-padding">
+                        <span>I like it</span>
+                    </div>
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+        </div>
+    </div>
+</div>

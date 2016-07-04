@@ -9,19 +9,21 @@
  * Main module of the application.
  */
 angular
-  .module('sockDogApp', [
+  .module('eventSharingApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
     'ngMessages',
     'ngResource',
-    'ngRoute',
+    'ui.router',
     'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+    'ngTouch',
+      'ui.bootstrap',
+      'ui.bootstrap.datetimepicker'
+  ]);
+
+angular.module('eventSharingApp').constant('config', {
+    appName: 'Event app',
+    appVersion: 0.1,
+    baseURL: 'http://localhost:8000'
+});
