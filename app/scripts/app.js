@@ -17,9 +17,11 @@ angular
     'ngResource',
     'ui.router',
     'ngSanitize',
-    'ngTouch',
+    'ngTouch', 
       'ui.bootstrap',
-      'ui.bootstrap.datetimepicker'
+     'ui.bootstrap.datetimepicker',
+     'angularSpinner',
+     'infinite-scroll'
   ]);
 
 angular.module('eventSharingApp').constant('config', {
