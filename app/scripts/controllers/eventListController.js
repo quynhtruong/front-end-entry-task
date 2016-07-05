@@ -124,7 +124,6 @@ angular.module('eventSharingApp').controller('eventListController', function ($s
                     channel_group.third = $scope._channel_list[i];
                 }
             }
-            var test = 1
         }, function (dataError) {
             console.log(dataError)
         });
