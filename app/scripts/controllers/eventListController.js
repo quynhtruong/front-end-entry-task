@@ -2,7 +2,7 @@ angular.module('eventSharingApp').controller('eventListController', function ($s
 
 
     var token = sessionStorage.getItem('token');
-    $scope.now = $scope.now || new Date().getTime();
+    $scope.now = $scope.now || new Date().getTime();    
     $scope._eventList = [];
     $scope._channel_list = [];
     $scope._channel_group_list = [];
@@ -11,9 +11,11 @@ angular.module('eventSharingApp').controller('eventListController', function ($s
     $scope._start_date = undefined;
     $scope._end_date = undefined;
     $scope.isLoading = false;
+    $scope.selectedDateTime = 'all';
 
 
     $scope.selectDate = function (dateTimeType) {
+        $scope.selectedDateTime = dateTimeType;
         switch (dateTimeType) {
             case 'all':
                 $scope._start_date = undefined;
