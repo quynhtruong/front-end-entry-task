@@ -11,6 +11,18 @@
             <img class="cat-logo" ng-src="../images/logo-cat.svg" style="width: 100px;height: 100px;">
         </div>
         <div class="text-center center-login-form">
+            <div class="row text-center login-error">
+                <span ng-show="serviceError text-18">{{message}}</span>
+
+                <div class="error-username">
+                    <span class="text-18" ng-show="!serviceError && emailRequired" translate>Email is required</span>
+                    <span class="text-18" ng-show="!serviceError && emailValid" translate>Email is invalid</span>
+                </div>
+                <div class="error-password">
+                    <span class="text-18" ng-show="!serviceError && passwordRequired" translate>Password is required</span>
+                </div>
+            </div>
+
             <form role="form" name="loginForm" style="padding-top: 30px;border: none">
                 <table style="line-height: 1.7; border: none">
                     <tr>
